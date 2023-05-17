@@ -4,25 +4,36 @@ nav_order: 0
 ---
 
 # [Project Name]
-[Project description]
+[Wohngstausch by Diligent Pythons]
 
 ## Team members
 
-### [Jane Dane]
+### [Julius Roberto Jupiter Jeske]
+
 
 About
-: Some info about Jane
+: Julius bewegt die Maus
 
 Matr.-Nr.
-: 1234567
+: 1924842
 
-### [Joe Doe]
+### [Katharina Vanessa Chroszczinsky]
+
 
 About
-: Some info about Joe
+: Katharina no, Kathi yeah
 
 Matr.-Nr.
-: 1234567
+: 1918968
+
+### [Finn Simon Stephan Höhne]
+
+
+About
+: ist auch im Team
+
+Matr.-Nr.
+: 1917147
 
 ## Eidesstattliche Erklärung
 
