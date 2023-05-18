@@ -18,3 +18,24 @@ def index():
 @app.route('/login/')
 def login():
 	pass
+
+@app.route('/register/')
+def register():
+	pass
+
+@app.route('/wohnungansehen/')
+def wohnungansehen():
+	pass
+
+@app.route('/wohnunginserieren/')
+def wohnunginserieren():
+	pass
+
+@app.route('/forum/')
+def forum():
+	pass
+
+@app.route('/inbox/')
+def inbox():
+	pass
+
