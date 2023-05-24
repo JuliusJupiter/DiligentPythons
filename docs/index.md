@@ -3,7 +3,7 @@ title: Home
 nav_order: 0
 ---
 
-# [Project Name]
+# [Diligent Pythons]
 [Wohngstausch by Diligent Pythons]
 
 ## Team members
