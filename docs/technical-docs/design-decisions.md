@@ -4,7 +4,7 @@ parent: Technical Docs
 nav_order: 5
 ---
 
-[Jane Dane]
+[To be anounced]
 {: .label }
 
 # [Design decisions]
@@ -19,7 +19,26 @@ nav_order: 5
 {:toc}
 </details>
 
-## 01: [Title]
+## 01: [Features for non-registered users]
+
+### Meta
+
+Status
+: Work in progress - **Decided** - Obsolete
+
+Updated
+: 17-MAY-2023
+
+### Problem statement
+
+The question arises how much the non-logged in user can do on our website, e.g. should he be able to see the offers?
+
+### Decision
+
+We discussed the issue as a whole group and came to the conclusion that every user should be able to see the offers to attract their attention, as it is often a big mental barrier to create an account. If the user finds an apartment that interests them, they are much more likely to sign up. 
+We also decided that the user must have an account to participate in an exchange (which includes posting an apartment). This makes messaging easier and makes the whole process seamless, professional and secure.
+
+## 02: [Title]
 
 ### Meta
 

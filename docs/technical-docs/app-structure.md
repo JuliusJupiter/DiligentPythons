@@ -4,7 +4,7 @@ parent: Technical Docs
 nav_order: 1
 ---
 
-[Jane Dane]
+[Julius, Kathi, and Finn]
 {: .label }
 
 # [App structure, incl. context]
@@ -18,3 +18,13 @@ nav_order: 1
 - TOC
 {:toc}
 </details>
+
++ Landingpage
++ Login
++ Registrierung
++ Wohnungsanzeigen ansehen
++ Inbox
++ Wohnung inserieren
++ Erfolgsgeschichten
++ Forum
+

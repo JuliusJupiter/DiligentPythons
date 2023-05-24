@@ -4,7 +4,7 @@ parent: Team Evaluation
 nav_order: 1
 ---
 
-[Julius, Kathi und Finn]
+[Julius, Kathi, and Finn]
 {: .label }
 
 # [Goals achieved and missed]

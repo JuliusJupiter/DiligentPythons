@@ -3,7 +3,7 @@ title: Value Proposition
 nav_order: 1
 ---
 
-[Jane Dane]
+[Julius, Kathi, and Finn]
 {: .label }
 
 # Value proposition
@@ -18,17 +18,14 @@ nav_order: 1
 {:toc}
 </details>
 
-Unsere Webanwendung soll den Zweck haben, eine Plattform für Wohnungstausch anzubieten.  
-In der heutigen Zeit wird es immer schwerer eine bezahlbare Wohnung zu finden – gerade für angehende Familien, die in ihre erste familienfreundliche Wohnung ziehen wollen. 
- Ältere Personen wiederum wohnen häufig in einer viel zu großen Wohnung, da die Kinder bereits ausgezogen sind. Jedoch ziehen die wenigsten in eine kleinere Wohnung, da sie Angst haben keine geeignete Wohnung zu finden, oder einfach ihre Wohnung nicht aufgeben wollen. Wohnungssuchen in Großstädten sind mit viel Aufwand verbunden. Eine Plattform für den Tausch könnte hier Erleichterung schaffen und dafür sorgen, dass Wohnraum effizienter genutzt wird.  
+The purpose of our web application is to provide a platform for apartment exchange.  
+Nowadays it is getting harder and harder to find an affordable apartment - especially for prospective families who want to move into their first family-friendly apartment. 
+ Older people, on the other hand, often live in an apartment that is far too large because the children have already moved out. However, very few move into a smaller apartment because they are afraid of not finding a suitable apartment, or simply do not want to deal with the stress involved associated with the process. Apartment searches in large cities are associated with a lot of effort. A platform for exchange could make things easier here and ensure that living space is used more efficiently.
 
-Wir begrenzen uns auf Großstädte und starten mit Berlin. Auch eine Zielgruppe haben wir bereits definiert durch die „PERSONA-Methode“. 
- 
+We limit ourselves to large cities and start with Berlin. We have also already defined a target group through the "PERSONA method". 
 
-Die Website bietet eine Motivation für uns alle aus der Gruppe, da auch wir live miterlebt haben, wie unsere Eltern nach unserem Auszug, in für sie viel zu großen Wohnungen wohnen geblieben sind und wir vor enormen Schwierigkeiten bei der Wohnungssuche standen. 
+The website provides motivation for all of us in the group, as we too have experienced live how our parents, after we moved out, stayed in apartments that were much too large for them and we ourselves faced enormous difficulties in finding housing. 
 
-Aber auch für Ältere kann ein Wohnungstausch von Vorteil sein. Als Beispiel könnte man sich vorstellen, dass eine Ältere Person lieber im Erdgeschoss wohnt, oder ein Fahrstuhl für diese Menschen eine enorme Erleichterung darstellen könnte. 
-
-
+But also for older people an apartment exchange can be advantageous. As an example, one could imagine that an older person prefers to live on the first floor, or an elevator could be an enormous relief for these people. Moreover, they could benefit from smaller apartments, which are by far easier to keep and cheaper to rent, since many seniors suffer from old-age poverty.
 
 

@@ -4,7 +4,7 @@ parent: Team Evaluation
 nav_order: 4
 ---
 
-[Jane Dane]
+[Julius, Kathi, and Finn]
 {: .label }
 
 # [Summary of individual contributions]
@@ -19,16 +19,30 @@ nav_order: 4
 {:toc}
 </details>
 
-## [Jane Dane]
+## The following distribution of tasks is not final, as we will break down who does what as the work progresses
+
+## Julius
 
 Contributions
-: Jane's first contribution
-: Jane's second contribution
-: ...
+: Routing
+: and so much more
 
-## [Joe Doe]
+## Kathi
 
 Contributions
-: Joe's first contribution
-: Joe's second contribution
+: Front-end design
+: and so so much more
 : ...
+
+## Finn 
+
+Contributions
+: Database structure
+: and so so so much more
+
+## Teamwork (simultaneously) 
+
+Contributions
+: Website design prototype
+: Documentation
+: .
