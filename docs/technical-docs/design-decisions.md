@@ -4,7 +4,7 @@ parent: Technical Docs
 nav_order: 5
 ---
 
-[To be anounced]
+[Julius, Kathi, and Finn]
 {: .label }
 
 # [Design decisions]
