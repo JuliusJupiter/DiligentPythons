@@ -37,6 +37,31 @@ The question arises how much the non-logged in user can do on our website, e.g. 
 
 We discussed the issue as a whole group and came to the conclusion that every user should be able to see the offers to attract their attention, as it is often a big mental barrier to create an account. If the user finds an apartment that interests them, they are much more likely to sign up. 
 We also decided that the user must have an account to participate in an exchange (which includes posting an apartment). This makes messaging easier and makes the whole process seamless, professional and secure.
+---
+
+## 02: [The design of our website]
+
+### Meta
+
+Status
+: Work in progress - **Decided** - Obsolete
+
+Updated
+: 30-May-2023
+
+### Problem statement
+
+[Describe the problem to be solved or the goal to be achieved. Include relevant context information.]
+
+### Decision
+
+[Describe **which** design decision was taken for **what reason** and by **whom**.]
+
+### Regarded options
+
+[Describe any possible design decision that will solve the problem. Assess these options, e.g., via a simple pro/con list.]
+
+---
 
 ## 02: [Title]
 
