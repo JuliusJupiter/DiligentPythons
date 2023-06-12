@@ -1,8 +1,12 @@
 import os
 from flask import Flask, render_template, redirect, url_for, request
+
 import db
 
 app = Flask(__name__)
+
+app.secret_key = 'secret_key_from_diligent_pythons'
+
 
 app.config.from_mapping(
 	SECRET_KEY='secret_key_just_for_dev_environment',
@@ -15,9 +19,10 @@ app.teardown_appcontext(db.close_db_con)
 def index():
 	return redirect(url_for('get_lists'))
 
-@app.route('/login/')
+@app.route('/login')
 def login():
-	pass
+    return render_template('login.html')
+pass
 
 @app.route('/register/')
 def register():
@@ -29,7 +34,11 @@ def wohnungansehen():
 
 @app.route('/wohnunginserieren/')
 def wohnunginserieren():
-	pass
+    if 'logged_in' in session:
+        return render_template('inserierung.html') # Render the inserierung.html page if the user is logged in
+    else:
+        return redirect('/login') # Redirect to the login page if the user is not logged in
+
 
 @app.route('/forum/')
 def forum():
