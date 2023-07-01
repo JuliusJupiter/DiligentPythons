@@ -1,42 +1,65 @@
 <!doctype html>
 <html lang=de>
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Wohnungstausch-Home</title>
+        <style>
+            .container {
+                display: flex;
+            }
+
+            .text-container {
+                flex: 1;
+                padding: 20px;
+            }
+
+            .button-container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                padding: 20px;
+                align-items: right;
+            }
+            .button-container button {
+                width: 200px; /* oder eine andere gewünschte Breite */
+                margin-bottom: 10px;
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <H1>Wohnungstausch</H1>
-            <p>by Wohnungstausch SE</p>
-            <button>Registrierung</button>
-            <button>Login</button>   
-            <hr>     
-        </header>
+        <header class="custom-header">
+            <div id="header">
+              <div id="websitename">Wohnungstausch</div>
+                <div id ="unternehmensname">by Wohnungstausch SE</div>
+              <button id="login-button">Login</button>
+              <button id="login-button">Registrierung</button> 
+            </div>
+          </header>
 
         <main>
-            <div class="left">
-                <p>Generelle Info
-
-                    Lass mal Tauschen
-                    
-                    Heute ist Vatertag
-                    
-                    Berlin und so
-                    Tauschen Tauschen Tauschen
-                    
-                    Ich will Geld</p>
-            </div>
-            <div class="right">
-                <button>Wohnung ansehen</button>
-                <button>Wohnung inserieren</button>
-                <button>Forum</button>
+            <div class="container">
+                <div class="text-container">
+                    <p>Willkommen auf Wohnungstausch.de,der Website, wo Sie Wohnungen zum
+                        Tauschen finden können.
+                        Damit sich Ihre Wohnverhältnisse 
+                         an ihre Lebenssituation anpassen.</p>
+                </div>
+                <div class="button-container">
+                    <button>Wohnung ansehen</button>
+                    <button>Wohnung inserieren</button>
+                    <button>Forum</button>
+                </div>
             </div>
         </main>
 
         <footer>
             <hr>
-            <p>Impressum </p>
-            <p>Kontakt</p>
-            <p>usw.</p>
+            <div class="footer-links">
+              <p>Impressum</p>
+              <p>Kontakt</p>
+              <p>usw.</p>
+            </div>
         </footer>
+          
     </body>
 </html>

@@ -1,33 +1,13 @@
 <!doctype html>
 <html lang=de>
     <head>
+      <link rel="stylesheet" type="text/css" href="style.css">
         <title>Wohnungstausch-Registrierung</title>
         <style>
-            body {
-              background-color: #cde7ff;
+            .buttons-container {
               display: flex;
-              flex-direction: column;
-              min-height: 100vh;
             }
-        
-            main {
-              margin: 0 auto;
-              width: 50%;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-            }
-        
-            button {
-              margin-top: 10px;
-            }
-        
-            footer {
-              margin-top: auto;
-              text-align: center;
-            }
-          </style>
+        </style>
         
             
       
@@ -35,11 +15,13 @@
       
     </head>
     <body>
-        <header>
-            <H1>Wohnungstausch</H1>
-            <p>by Wohnungstausch SE</p> 
-            <hr>     
-        </header>
+      <header class="custom-header">
+        <div id="header">
+          <div id="websitename">Wohnungstausch</div>
+            <div id ="unternehmensname">by Wohnungstausch SE</div>
+          <button id="login-button">Login</button>
+        </div>   
+      </header>
 
         <main>
             <H2>Registrierung</H2>
@@ -49,8 +31,10 @@
             <input type="text" placeholder="Ihr Passwort">
             <p>Passwort bestätigen</p>
             <input type="text" placeholder="Passwort bestätigen">
-            <button>Abbrechen</button>
-            <button>Bestätigen</button>
+            <div class="buttons-container">
+              <button style="margin-right: 10px;">Abbrechen</button>
+              <button style="margin-right: 10px;">Bestätigen</button>
+            </div>
         </main>
 
         <footer>

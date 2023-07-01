@@ -2,61 +2,21 @@
 <html lang=de>
     <head>
         <title>Wohnungsansicht</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <style>
-             header {
-                display: flex;
-                flex-direction: column;
-                
-            }
+             
 
-            hr {
-                width: 100%;
-                border: none;
-                border-top: 1px solid #000;
-                margin: 10px 0;
-            }
-
-            button {
-                margin-left: auto;
-            }
-
-            body {
-              background-color: #cde7ff;
-              display: flex;
-              flex-direction: column;
-              min-height: 100vh;
-            }
-
-            main{
-              margin: 0 auto;
-              width: 50%;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-            }
-            
-            .inserieren-button {
-                display: flex;
-                justify-content: center;
-                margin-top: 10px;
-                align-self: center;
-                background-color: orange;
-                border-radius: 5px;
-                padding: 5px 10px;
-                color: rgb(178, 33, 33);
-                border: none;
-            }
         </style>
     </head>
 
     <body>
-        <header>
-            <H1>Wohnungstausch</H1>
-            <p>by Wohnungstausch SE</p>
-            <button>Ausloggen</button> 
-            <hr>     
-        </header>
+        <header class="custom-header">
+            <div id="header">
+              <div id="websitename">Wohnungstausch</div>
+                <div id ="unternehmensname">by Wohnungstausch SE</div>
+              <button id="login-button">Login</button>
+            </div>
+          </header>
 
         <main>
             <H2>Wohnungen inserieren</H2>
@@ -71,7 +31,7 @@
 
             <p>Bilder hochladen <button>Durchsuchen</button></p>
 
-            <button class="inserieren-button"></button>Inserieren</button>
+            <button class="inserieren-button">Inserieren</button>
         </main>
 
         <footer>
