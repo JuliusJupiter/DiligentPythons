@@ -17,7 +17,7 @@ app.teardown_appcontext(db.close_db_con)
 
 @app.route('/')
 def index():
-	return redirect(url_for('get_lists'))
+	return render_template('base.html')
 
 @app.route('/login')
 def login():
@@ -30,6 +30,11 @@ def register():
 
 @app.route('/wohnungansehen/')
 def wohnungansehen():
+	return render_template('wohnungsansicht.html')
+
+@app.route('/wohnungansehen/<int:id>')
+def wohnungansehenEingeloggt(id):
+	sql_query = f'SELECT * FROM todos WHERE id={id}'
 	pass
 
 @app.route('/wohnunginserieren/')
