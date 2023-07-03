@@ -1,4 +1,7 @@
+import click
+import os
 import sqlite3
+from flask import current_app, g
 
 
 def get_db_con(pragma_foreign_keys = True):
