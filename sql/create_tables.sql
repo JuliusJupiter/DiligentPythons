@@ -10,6 +10,7 @@ CREATE TABLE wohnungsinersat (
     barrierefreiheit BOOLEAN,
     balkonvorhanden BOOLEAN,
     fahrstuhlvorhanden BOOLEAN,
+    haustierfreundlich BOOLEAN,
     miete INTEGER,
     egage INTEGER,
     zimmeranz INTEGER,
