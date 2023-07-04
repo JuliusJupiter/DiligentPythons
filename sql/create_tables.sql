@@ -31,4 +31,10 @@ CREATE TABLE inserat_erstellt_von(
     PRIMARY KEY( nutzer_id, inserat_id)
 );
 
+CREATE TABLE nachricht(
+    nutzer_id_empfaenger INTEGER, FOREIGN KEY (nutzer_id_empfaenger) REFERENCES kathi (nutzer_id) ON DELETE CASCADE,
+    nutzer_id_sender INTEGER,  FOREIGN KEY (nutzer_id_sender) REFERENCES kathi (nutzer_id) ON DELETE CASCADE,
+    gesehen BOOLEAN, 
+    inhalt TEXT,
+    PRIMARY KEY( nutzer_id_empfaenger, nutzer_id_sender, inhalt)
 
