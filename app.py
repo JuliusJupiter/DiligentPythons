@@ -26,7 +26,7 @@ pass
 
 @app.route('/register/')
 def register():
-	pass
+	return render_template('registrierung.html')
 
 @app.route('/wohnungansehen/')
 def wohnungansehen():
@@ -34,7 +34,7 @@ def wohnungansehen():
 
 @app.route('/wohnungansehen/<int:id>')
 def wohnungansehenEingeloggt(id):
-	sql_query = f'SELECT * FROM todos WHERE id={id}'
+	sql_query = f'SELECT * FROM kathi WHERE id={id}'
 	pass
 
 @app.route('/wohnunginserieren/')

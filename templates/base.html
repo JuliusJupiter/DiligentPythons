@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang=de>
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Wohnungstausch-Home</title>
+            <title>Wohnungstausch-Home</title>
         <style>
             .container {
                 display: flex;
@@ -25,14 +24,16 @@
                 margin-bottom: 10px;
             }
         </style>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     </head>
     <body>
         <header class="custom-header">
             <div id="header">
               <div id="websitename">Wohnungstausch</div>
                 <div id ="unternehmensname">by Wohnungstausch SE</div>
-              <button id="login-button">Login</button>
-              <button id="login-button">Registrierung</button> 
+              <button id="login-button"><a href="{{ url_for('login') }}">Login</a></button>
+
+              <button id="login-button"><a href="{{ url_for('register') }}">Registrierung</a></button> 
             </div>
           </header>
 
